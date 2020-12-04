@@ -1,0 +1,250 @@
+@media (max-width: 1300px) {
+    .ensayo-img{
+        gap: 20px;
+}
+.ensayoImg {
+  width: 250px;
+  height: 300px;
+}
+.meca-iman-img{
+    
+    width: 400px;
+}
+.mesa-imgA{
+    width: 300px;
+    height: 330px;
+    
+}
+.mesa-imgB{
+    width: 300px;
+    height: 330px;
+}
+
+.granaImG{
+    width: 300px;
+    height: 300px;
+}
+}
+@media (max-width: 1000px){
+    .meca-iman-img{
+        width: 400px;
+    }
+     
+    /* MENU RESPONSIVE ---------------------------------------------------------- */
+
+    
+    .header-info{
+        display: block;
+    }
+
+    
+    .links ul{
+        display: block;
+        position: absolute;
+        margin-top: 36px;
+        background-color: #000000a9;
+        margin-left: -150px;
+        height: 100vh;
+        width: 0px;
+        
+        
+    }
+    .links ul li a {
+        color: #dfad50;
+        font-size: 20px;
+        padding: 10px;
+        display: none;
+    }
+    .links ul li a:hover{
+        color: white;
+        text-shadow: 0px 0px 10px #ccc;
+    }
+
+    #menu{
+     display: block;
+     position: absolute;
+     margin-left: 600px;
+     margin-top: -21px;
+
+    }
+    #clave {
+        border: none;
+        color: #eb9800;
+        font-size: 20px;
+    }
+
+    #clave:hover{
+        color: white;
+        text-shadow: 0px 0px 10px #ccc;
+    }
+
+
+        /*FIN DE MENU RESPONSIVE ---------------------------------------------------------- */
+           
+        .banner-info p {
+            font-size: 22px;
+        }
+        .ensayo p {
+            font-size: 20px;
+        }
+        .ensayoImg {
+            width: 200px;
+            gap: 20px;
+        }
+        .bombasImg {
+            width: 400px;
+            height: 400px;
+        }
+        .mesa-imgA{
+            width: 200px;
+            height: 250px;
+        }
+        .mesa-imgB{
+            width: 200px;
+            height: 250px;
+        }
+        .granaImG{
+            width: 200px;
+            height: 200px;
+        }
+}
+@media (max-width: 850px){
+    #menu{
+        margin-left: 500px;
+    }
+    .ensayo-img{
+     display: block;
+    }
+    .ensayoImg{
+        width: 250px;
+    }
+
+    .granalladora-img{
+        display: block;
+    }
+    .granaImG{
+        width: 350px;
+    }
+    .ensayo  p {
+        font-size: 16px;
+    }
+}
+@media(max-width:550px){
+    header{
+        margin-top: -80px;
+    }
+    .header-info{
+        margin-top: 20px;
+    }
+    #menu {
+        margin-left: 350px;
+    }
+    .header-info h1 {
+        font-size: 25px;
+    }
+    .container-info-cover{
+        font-size: 17px;
+        width: 80%;
+        margin: auto;
+        
+    }
+    .container-info-cover h1{
+        font-size: 37px;
+        margin-top: -110px;
+    }
+}
+@media(max-width: 500px){
+
+
+    #menu {
+        margin-left: 300px;
+    }
+    .header-info h1 {
+        font-size: 23px;
+    }
+    .banner-info h1 {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .ensayo p {
+        width: 100%;
+        font-size: 13px;
+    }
+    .meca-iman-img {
+        text-align: center;
+        width: 263px;
+        height: 177px;
+    }
+    .bombasImg {
+        text-align: center;
+        width: 245px;
+        height: 293px;
+    }
+    .mesa-img{
+        display: block;
+    }
+    .mesa-imgA {
+        width: 244px;
+        height: 275px;
+    }
+    .mesa-imgB{
+        width: 244px;
+        height: 275px;
+    }
+    .granaImG{
+        width: 250px;
+    }
+}
+@media(max-width:411px ){
+    
+    .container-all{
+        width: 82%;
+    }
+    #menu{
+        margin-left:270px;
+    }
+    .linksUl{
+        margin-left: -63px;
+    }
+}
+@media(max-width: 360px){
+    body {
+        margin-left: -19px;
+    }
+    
+    #menu{
+        margin-left: 250px;
+    }
+    .header-info h1 {
+        font-size: 20px;
+    }
+    #linksUl{
+        margin-left: -54px;
+    }
+
+    .container-cover{
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    
+}
+@media(max-width: 320px){
+    #menu {
+        margin-left: 217px;
+    }
+    .container-all{
+        width: 95%;
+    }
+    .banner{
+        height: 150px;
+    }
+    .banner-info{
+        margin-top: 30px;
+        padding-bottom: 30px;
+        
+    }
+}

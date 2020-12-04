@@ -1,0 +1,299 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   text-decoration: none;
+   list-style: none;
+   font-family: 'Julius Sans One', sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: #333333;
+}
+
+/* INICIO HEADER------------------------------------------------------------------------------- */
+header{
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px #ccc;
+    margin-top: -86px;
+    z-index: 2;
+}
+.header-info{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    color: #CF8907;
+}
+
+#clave{
+    color: #CF8907;
+    border-top: 4px solid #CF8907;
+    padding-top: 17px;
+}
+.links ul{
+    margin: 15px;
+    margin-top: 20px;
+    display: flex;
+    transition: all 300ms;
+}
+.links ul li {
+    margin: 10px;
+}
+.links ul li a {
+    font-size: 17px;
+    color: rgb(80, 80, 80);
+    transition: 600ms;
+    transition: all 300ms;
+}
+.links ul li a:hover{
+    color: #CF8907;
+}
+
+
+#menu{
+    font-size: 30px;
+    margin-top: 10px;
+    background-color: #CF8907;
+    color:rgb(58, 58, 58);
+    padding: 7px 7px 3px 7px;
+    border-radius: 100%;
+    cursor: pointer;
+    display: none;
+}
+
+/* FIN DEL HEADER--------------------------------------------------------------------------------------------------- */
+
+
+
+.container-all{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+}
+.container-cover{
+    width: 100%;
+    height: 92vh;
+    position: relative;
+    margin-top: 80px; 
+
+
+    
+    
+    
+    background-image: url(./img/engranajes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.container-cover:before{
+    content:"";
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgba(5, 5, 5, 0.753) 20% , #333333 ) ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.container-info-cover{
+    font-size: 25px;
+    text-transform: initial;
+    padding-top: 320px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.container-info-cover h1 {
+    font-size: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: white;
+    border-bottom: 2px solid #CF8907;
+}
+.container-info-cover p  {
+    color: white;
+}
+
+.container-info-cover p strong{
+    color: #CF8907;
+    
+}
+.ensayo{
+    font-size: 17px;
+    margin: 20px;
+    margin-top: 120px;
+    padding-top: 120px;
+    border-top: 5px solid #CF8907;
+    width: 80%;
+    margin: auto;
+    
+    
+}
+
+.ensayo h1 {
+    margin-bottom: 30px;
+    
+}
+
+.ensayo p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+}
+
+.ensayo-img{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    text-align: center;
+    
+}
+.ensayoImg{
+    width: 400px;
+    height: 400px;
+}
+
+.meca-iman{
+    margin-bottom: 140px;
+    padding-bottom: 100px;
+    border-bottom: 5px solid #CF8907;
+}
+.meca-iman h1 {
+   margin-bottom: 30px;
+}
+
+.meca-iman p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+}
+
+.bombas{
+    margin-bottom: 140px;
+    padding-bottom: 100px;
+    border-bottom: 5px solid #CF8907;
+}
+.bombas h1{
+    margin-bottom: 30px;
+}
+.bombas p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+}
+
+.bombas-img{
+    text-align: center;
+}
+.bombasImg{
+    width: 500px;
+    height: 500px;
+}
+.mesa{
+    margin-bottom: 140px;
+    padding-bottom: 100px;
+    border-bottom: 5px solid #CF8907;
+}
+.mesa h1 {
+    margin-bottom: 30px;
+}
+.mesa p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+}
+.mesa-img {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+} 
+
+.mesa-imgA{
+    width: 400px;
+    height: 400px;
+}
+.mesa-imgB{
+    width: 400px;
+    height: 400px;
+}
+
+.granalladora{
+    margin-bottom: 140px;
+    padding-bottom: 100px;
+    border-bottom: 5px solid #CF8907;
+}
+.granalladora h1 {
+    margin-bottom: 30px;
+}
+
+.granalladora p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+}
+.granalladora-img{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    text-align: center;
+}
+.granaImG{
+    width: 400px;
+    height: 400px;
+}
+
+#desplegable {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background-image: linear-gradient(black,rgba(0, 0, 0, 0.521) ) ;
+    margin-left: -300px;
+    transition: 600ms;
+    z-index: 3;
+}
+
+#desplegable.pliegue{
+    margin-left: 0px;
+}
+#menu-desplegable {
+    margin: 20px;
+}
+#menu-desplegable ul li {
+    margin: 20px;
+}
+#menu-desplegable ul li a {
+    color: white;
+    transition: 600ms;
+}
+#clave-desplegable{
+    color: orange;
+    border-top: 4px solid orange;
+    padding: 0px;
+}
+#menu-desplegable ul li a:hover{
+    color: orange;
+    
+}
